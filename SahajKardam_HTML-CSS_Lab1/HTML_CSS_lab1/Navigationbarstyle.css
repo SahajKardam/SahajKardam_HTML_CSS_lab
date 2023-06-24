@@ -1,0 +1,74 @@
+body
+{
+    background-color: whitesmoke;
+}
+header
+{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: right;
+    padding: 5px;
+   
+}
+#navigate
+{
+    position: sticky;    
+}
+
+.menu
+{
+    margin:0%;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    font-weight: bolder;
+    height: fit-content;
+   box-sizing: content-box;  
+}
+
+.menu ul
+{
+    padding: 5px;
+    display:inline-flex;
+
+}
+.menu ul li
+{
+    color: white;
+    width: 120px;
+    margin:10px;
+
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover
+{
+  background-color: gray;
+}
+
+.submenu
+{
+    display: none;
+}
+.menu ul li:hover .submenu
+{
+    display: block;
+    position: absolute;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu ul li:hover .submenu ul
+{
+    display: block;
+    margin: 5px;
+}
+
+
+

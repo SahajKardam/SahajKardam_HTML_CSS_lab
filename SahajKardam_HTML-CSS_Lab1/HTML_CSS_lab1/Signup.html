@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        #bgvideo
+        {
+            position: fixed;
+            width: 1450px;
+            height:auto;
+            opacity:0.35 ;
+        }
+
+        h2
+        {
+            text-align: left;
+            
+        }
+
+        .signup
+        {
+            margin-left: 6%;
+            color: black;
+            width: 300px;
+            position: absolute;
+            top:30%;
+            left:30%;
+            line-height: 50px;
+            border-radius: 30px;
+            vertical-align: middle;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+            text-align: left;
+            border-bottom-width: 20%;
+            border-top-width: 20%;
+            border-right-width: 10%;
+            border-left-width: 20%;
+            border-style: groove;
+            border-color: white;
+            
+            
+            
+        }
+
+        input
+        {
+            height: 30px;
+            width: 70%;
+            padding-left: 10px;
+            border-radius: 8px;
+            margin-left: 10px ;
+        }
+        input:focus {
+            background-color: rgba(70, 130, 180, 0.35);
+        }
+
+
+        button
+        {
+            width: 90px;
+            height: 30px;
+            left: 10%;
+            
+            vertical-align: left;
+            float: center;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 5px;
+            background-color: rgb(128, 27, 167);
+            outline: none;
+            border: none;
+            color: white;
+        }
+        #gmailframe
+        {
+            height:50px;
+            width: 30%;
+            border-radius: 10px;
+            margin-left: 10px;
+            color: gainsboro;
+        }
+    </style>
+</head>
+    <body>
+        <video autoplay muted loop id="bgvideo">
+            <source src="./video/smokey_background_Video (720p).mp4" type="video/mp4">
+        </video>
+            <div class="signup">
+                <h2>Create Gmail Account</h2>
+
+                <div>
+                    <input type="text" placeholder="Full Name">
+                </div>
+
+                <div>
+                    <input type="number" placeholder="Contact Number">
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Enter email id">
+                </div>
+
+                    <button>Reset</button>
+                    <button>Submit</button>
+                </div>
+    </body>
+</html>
